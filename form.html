@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="https://example.com/" method="post"
+    <label for= "username">Username : </label> 
+    <input 
+       type="text"
+       name="Usename"
+       value=""
+        placeholder="Please input username"
+        size="30"
+        maxlength="20"
+        />
+        <br />
+        <label for="Usename">Password : </label>
+        <input type="password"name="password"size="30"
+        maxlength="20"/>
+         <!--new line-->
+        <br />
+         <label for= "email">Email : </label> 
+        <input type="email" name="email" />
+           
+     <br />
+
+    <label for="address">Address : </label>
+    <textarea name="address"cols="30"rows="6">
+        บ้านเลขที่ 31 หมู่ที่ 6 ถ.สุราษฎร์ธานี-นาสาร
+         ต.มะขามเตี้ย อ.เมือง จ.สุราษฎร์ธานี-นาสาร 
+         84000
+    </textarea>
+
+    <br />
+
+    <label for="gender">Gender : </label>
+    <input type="radio" name="gender" value="1" checked/> Male
+    <input type="radio" name="gender" value="2" /> Female
+    <input type="radio" name="gender"  value="9" /> LGBT+
+
+
+    <br />
+    <label for="source">Source : </label>
+    <input type="checkbook" name="friends"/> Friends
+    <input type="checkbook" name="internet" /> Internet
+    <input type="checkbook" name="radio"/> Radio
+
+    <br />
+    <input type="checkbook" name="accept" checked/> Accept
+    <input type="checkbook" name="refuse"/> Refuse
+
+
+    <br />
+    <input type="submit"  />
+    </form>
+</body>
+</html>
